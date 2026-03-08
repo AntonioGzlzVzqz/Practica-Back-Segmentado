@@ -1,0 +1,24 @@
+# Carpeta de compilación y objetos
+/bin/
+/obj/
+
+# Archivos de Visual Studio / VS Code
+.vscode/
+*.user
+*.suo
+
+# Archivos de Rider / JetBrains
+.idea/
+
+# Configuración sensible (no subir contraseñas ni connection strings)
+appsettings.json
+appsettings.Development.json
+
+# Paquetes de NuGet
+/packages/
+
+# Logs
+*.log
+
+# Archivos generados por EF Core Scaffold (si quieres regenerarlos cada vez)
+*.Designer.cs

@@ -1,0 +1,22 @@
+@LibreriaApi_HostAddress = http://localhost:5295
+
+GET {{LibreriaApi_HostAddress}}/api/books
+Accept: application/json
+
+###
+
+GET {{LibreriaApi_HostAddress}}/api/books/2
+Accept: application/json
+
+###
+
+POST {{LibreriaApi_HostAddress}}/api/Books
+Content-Type: application/json
+
+{
+    "title": "El Principito",
+    "author": "Antoine de Saint-Exupéry",
+    "Stock": 100
+}
+
+###
